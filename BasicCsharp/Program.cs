@@ -10,7 +10,26 @@ namespace BasicCsharp
     {
         static void Main()
         {
-            Console.WriteLine("HELLO WORLD!");
-           }
+            Interface1 A1 = new A();
+            Interface2 B1 = new B();
+            A1.ToffeeA();
+            B1.ToffeeB();
+        }
+        class A : Interface1
+        {
+            void Interface1.ToffeeA()
+            {
+                Console.WriteLine("HELLO WORLD!");
+            }
+        }
+        class B : Interface2
+        {
+            void Interface2.ToffeeB()
+            {
+                Console.WriteLine("WELCOME");
+            }
+        }
+
+
     }
 }
