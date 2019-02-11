@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace BasicCsharp
 {
 
-    class A
+   /* class A
     {
         int _a;
         int _b;
@@ -36,7 +36,7 @@ namespace BasicCsharp
 
         }
     
-}
+}*/
     
 //Interface
 
