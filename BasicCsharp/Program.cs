@@ -44,10 +44,12 @@ namespace BasicCsharp
     {
         static void Main()
         {
+            
             Interface1 A1 = new A();
             Interface2 B1 = new B();
             A1.ToffeeA();
             B1.ToffeeB();
+           
         }
         class A : Interface1
         {
